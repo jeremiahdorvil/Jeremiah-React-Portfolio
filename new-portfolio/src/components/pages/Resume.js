@@ -5,7 +5,7 @@ export default function Resume() {
     <div>
       <h1>Resume Page</h1>
       <p>
-        Please click here to view my <a href='C:\Users\jerem\bootcamp\Challenges\Jeremiah-React-Portfolio\new-portfolio\public\assets\Jeremiah Dorvil Resume.pdf'>resume</a>.
+        Please click <a href='C:\Users\jerem\bootcamp\Challenges\Jeremiah-React-Portfolio\new-portfolio\public\assets\Jeremiah Dorvil Resume.pdf' download="resume"> here </a>to view my resume.
       </p>
     </div>
   );
