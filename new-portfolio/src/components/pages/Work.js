@@ -6,7 +6,7 @@ export default function Work() {
       <h1>Work Page</h1>
       <p>
         View my work here! 
-        {Display}
+        {{Display}}
       </p>
     </div>
   );
