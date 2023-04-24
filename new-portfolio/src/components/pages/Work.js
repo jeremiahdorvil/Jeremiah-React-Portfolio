@@ -1,5 +1,5 @@
 import React from 'react';
-import { Display } from '../work assets/Display';
+import { Display } from '../work-assets/Display';
 export default function Work() {
   return (
     <div>
