@@ -11,22 +11,22 @@ export default function Contact() {
       </p>
       <div>
         <a href= 'http://www.github.com'>
-        <FontAwesomeIcon icon={icon({name: "github", family: "solid"})} />
+        <FontAwesomeIcon icon={icon({name: "github", family: "classic", style: "solid"})} />
         </a>
       </div>
       <div>
         <a href='http://www.linkedin.com/in/jeremiah-dorvil'>
-        <FontAwesomeIcon icon={icon({name: "linkedin", family: "solid"})} />
+        <FontAwesomeIcon icon={icon({name: "linkedin", family: "classic", style: "solid"})} />
         </a>
       </div>
       <div>
         <a href='mailto:jeremiahdorvil@outlook.com'>
-        <FontAwesomeIcon icon={icon({name: "square-envelope", family: "solid"})} />
+        <FontAwesomeIcon icon={icon({name: "square-envelope", family: "classic", style: "solid"})} />
         </a>
       </div>
       <div>
         <a href='tel:4754550981'>
-        <FontAwesomeIcon icon = {icon({name:"mobile-screen-button", family: "solid"})} />
+        <FontAwesomeIcon icon = {icon({name:"mobile-screen-button", family: "classic", style: "solid"})} />
         </a>
       </div>
     </div>
