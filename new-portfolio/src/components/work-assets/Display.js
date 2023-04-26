@@ -1,24 +1,49 @@
 import React from 'react';
 import Card from './WorkCards';
+import quizardimg from '../assets/Quizard-Screenshot.JPG';
+import movieimg from '../assets/Randomize-Movie.JPG';
+import regeximg from '../assets/RegEx-Screenshot.JPG';
+import nosqlimg from '../assets/NoSQL-API-Screenshot.JPG';
 
-const Repo = {
-  name: ['Quizard', 'Movie Randomizer', 'Regular Expressions Tutorial'], description: ['A quiz application capable of multiple choice questions in many different categories. Users can also chat in a live message board with others who are online.', 'This application allows the user to simply click a button to get a random movie recommendation. If you want another movie idea, just press the button again for a new result. The site also has persistence through local storage so you can see history of your previously displayed movies.', 'This is a tutorial I wrote about RegEx explaining each component of the example code.'], URL: ['https://warm-shore-84336.herokuapp.com/', 'https://cmp75.github.io/Movie-Randomizer/', 'https://gist.github.com/jeremiahdorvil/e5483f68da1c043092c85c63b2c8ba64']
-};
+const repo = [
+  {
+    name: 'Quizard',
+    description: 'A quiz application capable of multiple choice questions in many different categories. Users can also chat in a live message board with others who are online.',
+    url: 'https://warm-shore-84336.herokuapp.com/',
+    image: quizardimg,
+    github: 'https://github.com/cellopudding/Team-Project-2.git'
+  },
+  {
+    name: 'Movie Randomizer',
+    description: 'This application allows the user to simply click a button to get a random movie recommendation. If you want another movie idea, just press the button again for a new result. The site also has persistence through local storage so you can see history of your previously displayed movies.',
+    url: 'https://cmp75.github.io/Movie-Randomizer/',
+    image: movieimg,
+    github: 'https://github.com/cmp75/Movie-Randomizer.git'
+  },
+  {
+    name: 'NoSQL Social Network API',
+    description: 'This back-end application can be used to run social media platforms in a large capacity due to the use of NoSQL\'s Database. The end user can create a user profile, they can post thoughts that will be associated with their profile, they can add other users as friends and add reactions to their friend\'s posted thoughts. The user can also remove friends, thoughts and reactions. All of this can be customized to the liking of the end-user.',
+    url: 'https://drive.google.com/file/d/1UOJ85Fk0IKsM7k9E_YWCiOloApkg1L2P/view',
+    image: nosqlimg,
+    github: 'https://github.com/jeremiahdorvil/NoSQL-Social-API.git'
+  },
+  {
+    name: 'Regular Expressions Tutorial',
+    description: 'This is a tutorial I wrote about RegEx explaining each component of the example code.',
+    url: 'https://gist.github.com/jeremiahdorvil/e5483f68da1c043092c85c63b2c8ba64',
+    image: regeximg,
+  }
+];
+
 
 export function Display() {
   return (
-<div>
-    <ul>
-        <li>
-            <Card url={Repo.URL[0]} name={Repo.name[0]} description={Repo.description[0]} />
-        </li>
-        <li>
-            <Card url={Repo.URL[1]} name={Repo.name[1]} description={Repo.description[1]} />
-        </li>
-        <li>
-            <Card url={Repo.URL[2]} name={Repo.name[2]} description={Repo.description[2]} />
-        </li>
-    </ul>
+<div className='row'>
+  {repo.map(item => (
+    <div className='col-md-4 col-sm-12'>
+            <Card url={item.url} name={item.name} description={item.description} image={item.image} github={item.github }/>
+    </div>
+  ))};
 </div>
   );
-}
+};
