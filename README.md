@@ -11,4 +11,4 @@ Link to GitHub Repo:
 ` https://github.com/jeremiahdorvil/Jeremiah-React-Portfolio.git `
 
 Link to Deployed Site:
-` `
+` https://jeremiahdorvil.github.io/Jeremiah-React-Portfolio/ `
