@@ -4,6 +4,7 @@ import quizardimg from '../assets/Quizard-Screenshot.JPG';
 import movieimg from '../assets/Randomize-Movie.JPG';
 import regeximg from '../assets/RegEx-Screenshot.JPG';
 import nosqlimg from '../assets/NoSQL-API-Screenshot.JPG';
+import ufitimg from '../assets/mainpage.PNG';
 
 const repo = [
   {
@@ -26,6 +27,13 @@ const repo = [
     url: 'https://drive.google.com/file/d/1UOJ85Fk0IKsM7k9E_YWCiOloApkg1L2P/view',
     image: nosqlimg,
     github: 'https://github.com/jeremiahdorvil/NoSQL-Social-API.git'
+  },
+  {
+    name: 'U-Fit',
+    description: 'U-Fit is an fitness tracker web application that helps the user to track their workouts and provides guides on exercises.',
+    url: 'https://pure-savannah-65137.herokuapp.com/',
+    image: ufitimg,
+    github: 'https://github.com/sampaul10/Fitness-Tracker.git'
   },
   {
     name: 'Regular Expressions Tutorial',
