@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Jeremiah-React-Portfolio/static/css/main.3395ffa0.css",
-    "main.js": "/Jeremiah-React-Portfolio/static/js/main.abc3cd25.js",
+    "main.js": "/Jeremiah-React-Portfolio/static/js/main.d6a67f95.js",
     "static/js/787.8d4efb73.chunk.js": "/Jeremiah-React-Portfolio/static/js/787.8d4efb73.chunk.js",
     "static/media/mainpage.PNG": "/Jeremiah-React-Portfolio/static/media/mainpage.e52c538ccb6e9561a038.PNG",
     "static/media/New-York-Balcony-Pic.jpg": "/Jeremiah-React-Portfolio/static/media/New-York-Balcony-Pic.10b83be727cc702d0acb.jpg",
@@ -11,11 +11,11 @@
     "static/media/Randomize-Movie.JPG": "/Jeremiah-React-Portfolio/static/media/Randomize-Movie.1a7aaed2bc25e8a52d3b.JPG",
     "index.html": "/Jeremiah-React-Portfolio/index.html",
     "main.3395ffa0.css.map": "/Jeremiah-React-Portfolio/static/css/main.3395ffa0.css.map",
-    "main.abc3cd25.js.map": "/Jeremiah-React-Portfolio/static/js/main.abc3cd25.js.map",
+    "main.d6a67f95.js.map": "/Jeremiah-React-Portfolio/static/js/main.d6a67f95.js.map",
     "787.8d4efb73.chunk.js.map": "/Jeremiah-React-Portfolio/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3395ffa0.css",
-    "static/js/main.abc3cd25.js"
+    "static/js/main.d6a67f95.js"
   ]
 }
