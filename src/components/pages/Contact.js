@@ -13,28 +13,29 @@ export default function Contact() {
       </p>
       <div className='col'>
         <a href= {'http://www.github.com/jeremiahdorvil'}>
-        <button type="button" class="btn btn-dark">
+        <button style={{ padding: "10px", margin: "15px" }} type="button" class="btn btn-dark">
         <i class="fa-brands fa-github fa-lg"></i>
         </button>
         </a> 
+        <br/>
       </div>
       <div className='col'>
         <a href={'http://www.linkedin.com/in/jeremiah-dorvil'}>
-        <button type="button" class="btn btn-dark">
+        <button style={{ padding: "10px", margin: "15px" }} type="button" class="btn btn-dark">
         <i class="fa-brands fa-linkedin fa-lg"></i>
         </button>
         </a> 
       </div>
       <div className='col'>
         <a href={'mailto:jeremiahdorvil@outlook.com'}>
-        <button type="button" class="btn btn-dark">
+        <button style={{ padding: "10px", margin: "15px" }} type="button" class="btn btn-dark">
         <FontAwesomeIcon icon={icon({name: "square-envelope", family: "classic", style: "solid"})} size = {32} />
         </button>
         </a>
       </div>
       <div className='col'>
         <a href={'tel:4754550981'}>
-        <button type="button" class="btn btn-dark">
+        <button style={{ padding: "10px", margin: "15px" }} type="button" class="btn btn-dark">
         <FontAwesomeIcon icon = {icon({name:"mobile-screen-button", family: "classic", style: "solid"})} size = {32} />
         </button>
         </a>
